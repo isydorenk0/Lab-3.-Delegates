@@ -1,0 +1,24 @@
+    public Battery()
+        {
+            batteryTypes = new List<string>() { "Li-Ion", "Li-Po" };
+        }
+
+public string BatType
+        {
+            get { return batType; }
+            set
+            {
+                if (batteryTypes.Contains(value))
+                {
+                    batType = value;
+                }
+                else
+                {
+                    Error.Show(value);
+                }
+            }
+        }
+
+        
+        private string batType;
+        private List<string> batteryTypes;
