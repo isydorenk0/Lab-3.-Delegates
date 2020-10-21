@@ -115,9 +115,9 @@
       <Project>{2823d119-a793-4711-99b8-7fe871a511bc}</Project>
       <Name>Playback</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WindowsFormsApplication1\Lab 3. Delegates.csproj">
+    <ProjectReference Include="..\WindowsFormsApplication1\Lab 4. LINQ.csproj">
       <Project>{02563053-4db1-4d63-babf-ef729bcfcf4a}</Project>
-      <Name>Lab 3. Delegates</Name>
+      <Name>Lab 4. LINQ</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using System.Windows.Forms;
 
-namespace SMSProvider    
+namespace SMSProvider
 {
     public class SMSProvider
     {
-        public delegate void SMSRecievedDelegate(string message);
-        public event SMSRecievedDelegate SMSRecevied;        
-        private void RaisedSMSRecievedEvent(string message)
+        public delegate void SMSRecievedDelegate(ListViewItem message);
+        public event SMSRecievedDelegate SMSRecieved;
+        private void RaisedSMSRecievedEvent(ListViewItem messageItem)
         {
-            SMSRecevied?.Invoke(message);
-        }
-
+            SMSRecieved?.Invoke(messageItem);
+        }        
     }
 }
+

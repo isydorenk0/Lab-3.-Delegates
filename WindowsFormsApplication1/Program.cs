@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
+
 namespace WindowsFormsApplication1
 {
     static class Program
@@ -12,8 +13,9 @@ namespace WindowsFormsApplication1
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SMSModule());                       
+            Application.SetCompatibleTextRenderingDefault(false);            
+            Application.Run(new SMSModuleEnhanced());
+            //Application.Run(new SMSModule());
         }
     }
 }

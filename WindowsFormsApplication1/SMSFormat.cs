@@ -3,7 +3,7 @@
 namespace WindowsFormsApplication1
 {
     public delegate string FormatDelegate(string text);
-    static public class FormatMessage
+    public class SMSFormat
     {        
         public static string FormatDefault(string message)
         {

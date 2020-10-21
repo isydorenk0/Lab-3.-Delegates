@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabCTests", "LabCTests\LabCTests.csproj", "{BB05BA46-EFAE-48E3-AF50-56194B19949B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab 3. Delegates", "WindowsFormsApplication1\Lab 3. Delegates.csproj", "{02563053-4DB1-4D63-BABF-EF729BCFCF4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab 4. LINQ", "WindowsFormsApplication1\Lab 4. LINQ.csproj", "{02563053-4DB1-4D63-BABF-EF729BCFCF4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab 3. DelegatesTests", "Lab 3. DelegatesTests\Lab 3. DelegatesTests.csproj", "{A9410C04-00EA-4E3C-9B4D-BEBF98A415C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab 4. LINQTests", "Lab 3. DelegatesTests\Lab 4. LINQTests.csproj", "{A9410C04-00EA-4E3C-9B4D-BEBF98A415C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
