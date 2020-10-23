@@ -79,7 +79,9 @@
     <EmbeddedResource Include="SMSModuleEnhanced.resx">
       <DependentUpon>SMSModuleEnhanced.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Messages.csv" />
+    <None Include="Messages.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
